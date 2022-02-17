@@ -158,9 +158,13 @@ body {
 
 .poster-cover {
     margin-top: 15px;
-    height: 350px;
+    min-height: 350px;
     width: 250px;
     border-radius: 15px;
+    
+    text-align: center;
+    
+
 }
 
 .poster-info {
@@ -206,7 +210,8 @@ body {
 
 .poster-rating {
     font-size: 20px;
-    padding: 3.5px;
+    text-align: center;
+    padding: 0;
     color: rgb(236, 112, 10);
     width: 35px;
     height: 35px;
